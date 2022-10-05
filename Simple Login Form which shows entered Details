@@ -1,0 +1,42 @@
+<!-- This code is designed by Mr. Rohan Kumar Bhoi -->
+<!-- GitHub : github.com/rohan-0707 -->
+<!-- Instagram : i_am_the_rohan_ -->
+<!-- Facebook : facebook.com/rohan.bhoi.07 -->
+<!-- Mail ID : rohanbhoi1546@gmail.com -->
+<!-- Linkdi : rohan-kumar-bhoi -->
+<!-- Twitter : @rohanbhoi07 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form Demo</title>
+        <script>
+
+            function signIn()
+            {
+                document.write("UserName : " + login.UserId.value + "<br>Password : " + login.Password.value);
+            }
+
+        </script>
+    </head>
+    <body>
+        <form id="login">
+
+            Enter User Name :
+            <input type="text" name="UserId">    
+            <br>
+            <br>
+            Enter Password :
+            <input type="password" name="Password">
+            <br>
+            <br>
+            <input type="button" onclick="signIn()" value="Submit">
+        </form>
+    </body>
+</html>
+
+
+<!-- ____________________________________________________________________________________________________________________________________________________
+                                                                         Thank You !
+____________________________________________________________________________________________________________________________________________________ -->
