@@ -12,7 +12,7 @@
 <head>
     <title>String Operation</title>
     <b>
-        <h1 align="center">String Operation in JavaScript</h1>
+        <u><h1 align="center">String Operation in JavaScript</h1></u>
         <script>
 
             var my_string1 = "This is our third practical of JavaScript - CSS "
