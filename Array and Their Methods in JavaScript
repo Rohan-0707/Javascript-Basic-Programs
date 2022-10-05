@@ -1,0 +1,77 @@
+<!-- This code is designed by Mr. Rohan Kumar Bhoi -->
+<!-- GitHub : github.com/rohan-0707 -->
+<!-- Instagram : i_am_the_rohan_ -->
+<!-- Facebook : facebook.com/rohan.bhoi.07 -->
+<!-- Mail ID : rohanbhoi1546@gmail.com -->
+<!-- Linkdi : rohan-kumar-bhoi -->
+<!-- Twitter : @rohanbhoi07 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Array and Methods</title>
+</head>
+<body>
+
+    <h1 align="center">Practical No.3</h1>
+    <u><h2 align="center">Array and their Methods</h2></u>
+    <b>
+        <script>
+            var arr1 = [10,20,30,40,50,60,70,80,90]
+            var arr2 = ["XYZ", "PQR", "ABC", "LMN"]
+
+            document.write("<br>Our First Array is : "+arr1)
+            document.write("<br>Our Second Array is : "+arr2+"<br><br>")
+            document.write("<hr>")
+
+            // Concat Operation
+            document.write("<br>"+"Concat Operation : <br>")
+            var result = arr1.concat(arr2);
+            document.write("<br> Final Result of Concatanation : "+result+"<br><br>")
+            document.write("<hr>")
+            
+            // Push Operation
+            document.write("<br>Push Operation : <br>")
+            arr1.push(100)
+            document.write("<br> Final Result of push : "+arr1+"<br><br>")
+            document.write("<hr>")
+
+            // UnShift Operation
+            document.write("<br>UnShift Operation : <br><br>")
+            document.write("Our Real Array is : "+arr2)
+            arr2.unshift("DEF")
+            document.write("<br> Final Result of Unshift : "+arr2+"<br><br>")
+            document.write("<hr>")
+
+            // Shift Operation
+            document.write("<br>Shift Operation : <br><br>")
+            document.write("Our Real Array is : "+arr1)
+            arr1.shift()
+            document.write("<br> Final Result of Shift : "+arr1+"<br><br>")
+            document.write("<hr>")
+
+            // Pop Operation
+            document.write("<br>Pop Operation : <br><br>")
+            document.write("Real Array : "+arr2)
+            arr2.pop()
+            document.write("<br> Final Result of Pop : "+arr2+"<br><br>")
+            document.write("<hr>")
+
+            // Splice Operation
+            document.write("<br>Splice Operation : <br><br>")
+            document.write("Real Array : "+arr1)
+            document.write("<br> Final Result of Splice : "+arr1.splice(3,4))
+            document.write("<br><br>Now our array is : "+arr1+"<br><br>")
+            document.write("<hr>")
+
+        </script>
+    </b>
+    
+</body>
+</html>
+
+
+<!-- ____________________________________________________________________________________________________________________________________________________
+                                                                         Thank You !
+____________________________________________________________________________________________________________________________________________________ -->
